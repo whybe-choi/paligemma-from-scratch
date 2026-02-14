@@ -655,3 +655,5 @@ class PaliGemmaForConditionalGeneration(nn.Module):
             inputs_embeds=inputs_embeds,
             kv_cache=kv_cache,
         )
+
+        return outputs
